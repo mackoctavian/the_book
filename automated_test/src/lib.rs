@@ -23,7 +23,7 @@ mod tests {
             height: 2
         };
 
-        assert!(smaller.can_hold(&larger));
+        assert_eq!(larger.can_hold(&smaller), smaller.can_hold(&larger))
     }
 }
 
