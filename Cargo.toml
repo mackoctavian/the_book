@@ -8,4 +8,4 @@ edition = "2021"
 [dependencies]
 
 [workspace]
-members = ["automated_test", "collections", "concurrency", "error_handling", "generics"]
+members = ["automated_test", "collections", "concurrency", "error_handling", "generics", "iterators"]
